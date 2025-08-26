@@ -17,7 +17,7 @@ import java.util.concurrent.TimeUnit;
 @Warmup(iterations = 1)
 @Measurement(iterations = 3)
 public class BenchmarkJMH {
-    @Param({"10000"})
+    @Param({"1000000"})
     private int size;
     private List<Integer> dataList;
     private int[] dataArray;
